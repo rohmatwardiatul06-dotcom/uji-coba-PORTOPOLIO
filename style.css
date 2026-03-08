@@ -1,0 +1,239 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pengaturan Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: black;
+    background-color: rgb(240, 212, 212);
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rebeccapurple;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: cyane;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: green;
+}
+
+
+/* Hero Section */
+.hero {
+    padding: 80px 0;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color:  black;
+}
+
+.hero-text h1 span {
+    color: burlywood;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: grey;
+    max-width: 500px;
+}
+
+
+/* About Section */
+.about {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: grey ;
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+
+/* Skills Section */
+.skills {
+    padding: 80px 0;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: grey;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+/* Projects Section */
+.projects {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.project-card {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: rgb(197, 195, 195);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    padding: 20px 20px 0;
+}
+
+.project-card p {
+    color: grey;
+    padding: 10px 20px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin: 0 20px 20px;
+    padding: 8px 20px;
+    border: 2px solid grey;
+    color:  grey;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: black;
+    color: white;
+}
+/* Footer */
+footer {
+    background-color: #2d3748;
+    color: white;
+    text-align: center; 
+    padding: 20px 0;
+    font-weight: 300;
+}   
