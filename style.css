@@ -165,13 +165,13 @@ a {
     font-weight: 600;
     color: grey;
     border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 3px 10px black (0,0,0,0.08);
     transition: transform 0.3s ease;
 }
 
 .skill-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    box-shadow: 0 5px 10px black (0,0,0,0.15);
 }
 
 
